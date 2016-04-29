@@ -1,0 +1,37 @@
+
+
+
+
+
+
+
+## Quetions ##
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+  It is different from working directory because working directory can have a temparary files or files which has bug and not in state to commit. But in staging are every file must be in state to commit.
+  so having staging area is good to track state of file and can be use to commit multiple related files in one commit.
+
+
+
+
+
+
+
+
+
+
+
+## NOTES ## 
+
+staging area : Before the git commit  we can create a set of related files which can be part of one commit. by git add command we can create a that set of file which is nothing but staging area. 
+	       
+
+## Making git branch 
+
+git branch : shows the current branch user working on. In case multiple branch , branch name prepend with * (star) is the current branch user working on.
+
+git branch experiment : Make a new branch named as experiment.
+
+git checkout experiment : Switching to new branch called as experiment.
+
+ 
+
