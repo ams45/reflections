@@ -1,0 +1,35 @@
+1 how VC system save the history of a file.
+ --> It's used to track all changes and helpfull to rollback.
+
+2 Why some VC allow to commit multiple file in one commit?
+ --> when one task has a change in multiple files thats good to commit together in one commit so we will have a log , diff and commit history together and easy to understand.
+
+3 How to git log and git diff .
+--> 
+    1 . git log : 
+	command > git log 
+	output  -- > it will shows 1. commit id's  2. Author  3. Date 
+
+    2 . git diff :
+	commnd > git diff commit_id.x commit_id.x-1	
+
+
+
+
+
+
+
+
+
+
+
+########################################## Note's ##############################################
+
+git config --global color.ui auto 
+--> git config : changes setting in git 
+    --global   : For all over project this change will be apply.
+
+Setting workspace : seting command prompt 
+
+https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash
+https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
